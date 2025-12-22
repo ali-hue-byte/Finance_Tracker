@@ -39,7 +39,7 @@ git clone https://github.com/ali-hue-byte/Finance_Tracker.git
 2. Navigate into the project folder:
 
 ```bash
-cd Finance_Tracker/Finance Tracker CLI
+cd Finance_Tracker/"Finance Tracker CLI"
 ```
 
 3. Run the menu-driven CLI:
