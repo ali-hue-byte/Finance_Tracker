@@ -10,7 +10,10 @@ from .menu_driven_cli import (add_expense,
                   delete_category)
 
 def main():
-    print("Welcome to Finance Tracker")
+    print("----Welcome to Finance Tracker----")
+    print("default income categories: salary, freelance, bonus, other")
+    print("default expense categories: food, rent, transport, utilities, entertainment, health, miscellaneous")
+    print()
     while True:
         print("1. Add Expense")
         print("2. Add Income")
@@ -87,5 +90,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
