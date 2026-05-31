@@ -3,10 +3,10 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.abspath(os.path.join(BASE_DIR, "..", "data"))
-os.makedirs(DATA_DIR, exist_ok=True)
+os.makedirs(DATA_DIR, exist_ok=True) # Creates new data directory if it doesn't exist
 
 
-
+# default categories
 expense_categories = ["food", "rent", "transport", "utilities", "entertainment", "health", "misc"]
 income_categories = ["salary", "freelance", "bonus", "other"]
 
